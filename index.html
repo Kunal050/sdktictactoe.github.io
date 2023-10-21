@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="TicTacToe"> MyTicTacToe.Com</li>
+        </ul>
+    </nav>
+    <div class="game">
+        <div class="game-info">
+            <h1>Welcome to my game!</h1>
+            <div>
+                <span class="info">Its Your Turn </span>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="imgbox">
+                <img src="win_img3.gif" alt="">
+            </div>
+            <div class="users">
+                <table border="1" cellspacing="0">
+                    <tr>
+                        <th class="u1">user-1</th>
+                        <th class="u2">user-2</th>
+                    </tr>
+                    <tr id="point-table">
+                        <th class="p p1">0</th>
+                        <th class="p p2">0</th>
+                    </tr>
+                </table>
+                <button id="resetpoint">Reset Point-Table</button>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="container">
+            
+            <div class="box bt-0 bl-0"><span class="boxtext"></span></div>
+            <div class="box bt-0"><span class="boxtext"></span></div>
+            <div class="box bt-0 br-0"><span class="boxtext"></span></div>
+            <div class="box bl-0"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box br-0"><span class="boxtext"></span></div>
+            <div class="box bl-0 bb-0"><span class="boxtext"></span></div>
+            <div class="box bb-0"><span class="boxtext"></span></div>
+            <div class="box bb-0 br-0"><span class="boxtext"></span></div>
+        </div>
+    </div>
+    
+    
+    <script src="./index.js"></script>
+</body>
+</html>
